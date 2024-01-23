@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif; /*Fuente importada*/
+    color: #333; /*Color del texto*/
+    margin: 20px;
+    background-color: #fff5f5;
+}
+
+header { 
+    display: flex;
+    align-items:center;
+}
+.profile {
+    background-color: #ffff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+header img {
+    max-width: 150px;
+
+}
+.header-content {
+    text-align: left;
+}
+section {
+    margin-bottom: 20px;
+    border: 1px solid #e6b3b3; /*Bordes de los elementos*/
+    padding: 10px;
+    border-radius: 10px;
+}
+h2 {
+    border-bottom: 2px solid #cc6666;
+    padding-bottom: 5px;
+}
+h3 {
+    border-bottom: 2px solid #cc6666;
+    padding-bottom:5px;
+}
+p {
+    margin: 5px 0;
+}
+
+/*Herencia de estilos*/
+header h1 {
+    color: #cc6666; /*Se hereda el color del texto*/
+}
+/*Color de fondo a un elemento div*/
+#contact {
+    background-color: #ffe6e6;
+}
+/*Código hexadecimal para los colores específicos*/
+#skills {
+    background-color: #ffd9d9;
+}
+/*Crear una variable personalizada*/
+:root {
+    --main-color: #ff6666;
+}
+#experience {
+    border-color: var(--main-color)
+}
+/*Modificar el tamaño de la imagen*/
+header img {
+    width: 100%; /*Se ajusta la imagen al ancho del contenedor*/
+
+}
